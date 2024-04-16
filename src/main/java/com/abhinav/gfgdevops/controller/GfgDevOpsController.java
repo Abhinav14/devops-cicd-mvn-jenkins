@@ -30,4 +30,9 @@ public class GfgDevOpsController {
     public int division(@RequestBody ReqObj reqObj){
         return (reqObj.getA()/reqObj.getB());
     }
+
+    @GetMapping("/display")
+    public String display(){
+        return "Just a test to trigger jenkins";
+    }
 }
