@@ -35,4 +35,9 @@ public class GfgDevOpsController {
     public String display(){
         return "Just a test to trigger jenkins";
     }
+
+    @GetMapping("/git")
+    public String buildFromGit(){
+        return "Build using Git Actions";
+    }
 }
