@@ -38,6 +38,6 @@ public class GfgDevOpsController {
 
     @GetMapping("/git")
     public String buildFromGit(){
-        return "Build using Git Actions";
+        return "Build using Git Actions..";
     }
 }
